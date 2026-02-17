@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniFlow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5; /* Light grey background */
+            color: #333;
+        }
+        h1 {
+            font-size: 4em;
+            color: #3f51b5; /* Indigo color for title */
+            margin-bottom: 50px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .button-container {
+            display: flex;
+            gap: 30px; /* Space between buttons */
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #673ab7; /* Deep purple */
+            color: white;
+            outline: none;
+        }
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+            background-color: #5e35b1; /* Slightly darker purple */
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <h1>AniFlow</h1>
+    <div class="button-container">
+        <button>스타일 1</button>
+        <button>스타일 2</button>
+        <button>스타일 3</button>
+    </div>
+</body>
+</html>
